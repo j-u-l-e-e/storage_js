@@ -1,12 +1,16 @@
 {
   "name": "@julija.kozireva/storage_js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS module for managing cookies, local storage and session storage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cookies", "localStorage", "sessionStorage"],
+  "keywords": [
+    "cookies",
+    "localStorage",
+    "sessionStorage"
+  ],
   "author": "Julija Kozireva",
   "license": "ISC"
 }
