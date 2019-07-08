@@ -1,5 +1,5 @@
 {
-  "name": "storage_js",
+  "name": "@julija.kozireva/storage_js",
   "version": "1.0.0",
   "description": "A NodeJS module for managing cookies, local storage and session storage",
   "main": "index.js",
