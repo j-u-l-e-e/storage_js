@@ -17,7 +17,7 @@ function getCookie(key) {
  * @param value
  * @param days
  */
-function setCookie (key, value, days) {
+function setCookie(key, value, days) {
     let expires = "";
     const DAYS_TO_MS = 86400000;
     if (days) {
@@ -55,7 +55,7 @@ function clearCookies() {
  * @param key
  */
 function getLocalStorageItem(key) {
-    localStorage.getItem(key);
+    return localStorage.getItem(key);
 }
 
 /**
@@ -87,7 +87,7 @@ function clearLocalStorage() {
  * @param key
  */
 function getSessionStorageItem(key) {
-    sessionStorage.getItem(key);
+    return sessionStorage.getItem(key);
 }
 
 /**
